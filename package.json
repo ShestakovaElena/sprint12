@@ -1,7 +1,7 @@
 {
   "name": "sprint12",
   "version": "1.0.0",
-  "description": "",
+  "description": "project 12 for Ya.Praktikum",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -10,7 +10,7 @@
   "author": "Elena Shestakova",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.2.0",
+    "eslint": "^7.3.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
     "nodemon": "^2.0.4"

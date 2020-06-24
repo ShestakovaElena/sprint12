@@ -1,7 +1,6 @@
-const usersRouter = require("express").Router();
-const path = require("path");
+const usersRouter = require('express').Router();
 
-const users = require(path.join(__dirname, '../data/users.json'));
+const users = require('../data/users.json');
 
 usersRouter.get('/', (req, res) => {
   res.send(users);
@@ -9,7 +8,7 @@ usersRouter.get('/', (req, res) => {
 
 usersRouter.get('/:id', (req, res) => {
   const { id } = req.params;
-  const user = users.find((item) => item._id === id);
+  const user = users.find((item) => item._id === id);// eslint-disable-line
   if (user) {
     res.send(user);
   } else {
@@ -17,4 +16,4 @@ usersRouter.get('/:id', (req, res) => {
   }
 });
 
-module.exports = usersRouter;
+module.exports = usersRouter; // eslint-disable-line
