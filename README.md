@@ -1,1 +1,13 @@
-# sprint12
+#Проект Mesto
+
+#https://github.com/ShestakovaElena/sprint12
+
+Для локального запуска проекта:
+
+##npm run start
+
+    запуск сервера на localhost:3000;
+
+##npm run dev
+
+    запуск сервера на localhost:3000 с hot reload;
