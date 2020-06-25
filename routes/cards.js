@@ -6,4 +6,4 @@ cardsRouter.get('/', (req, res) => {
   res.send(cards);
 });
 
-module.exports = cardsRouter; // eslint-disable-line
+module.exports = cardsRouter;

@@ -8,7 +8,8 @@ usersRouter.get('/', (req, res) => {
 
 usersRouter.get('/:id', (req, res) => {
   const { id } = req.params;
-  const user = users.find((item) => item._id === id);// eslint-disable-line
+  // eslint-disable-next-line no-underscore-dangle
+  const user = users.find((item) => item._id === id);
   if (user) {
     res.send(user);
   } else {
@@ -16,4 +17,4 @@ usersRouter.get('/:id', (req, res) => {
   }
 });
 
-module.exports = usersRouter; // eslint-disable-line
+module.exports = usersRouter;
